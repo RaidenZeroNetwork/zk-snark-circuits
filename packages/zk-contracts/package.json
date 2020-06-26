@@ -6,7 +6,9 @@
     "zk-circuits": "^1.0.0"
   },
   "dependencies": {
-    "truffle": "^5.1.11"
+    "truffle": "^5.1.11",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.9"
   },
   "scripts": {
     "build": "truffle compile",
