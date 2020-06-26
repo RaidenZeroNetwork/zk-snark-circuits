@@ -1,3 +1,7 @@
+# Misc
+.secret
+.DS_Store
+
 # Logs
 logs
 *.log
