@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "build": "lerna run build",
+    "bootstrap": "lerna link --force-local && lerna bootstrap",
+    "deploy": "lerna run deploy",
+    "verify": "lerna run verify",
+    "ganache": "ganache-cli -m helloworld",
+    "start": "lerna exec -- npm install && npm run bootstrap && npm run build && npm run deploy --network ropsten  && npm run verify"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.9.0",
+    "lerna": "^3.20.2"
+  }
+}
